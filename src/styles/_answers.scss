@@ -1,0 +1,27 @@
+.answers-list {
+    margin: 24px;
+    padding: 24px;
+    width: 100%;
+    padding: 16px;
+    border-radius: 3px;
+    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.1);
+
+    .answer-item {
+        margin-bottom: 24px;
+        padding: 16px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+
+        .question {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .answer {
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+    }
+}
